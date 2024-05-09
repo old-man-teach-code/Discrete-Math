@@ -4,10 +4,10 @@
 
 2. Tìm tập hợp `C = A ∪ B` dựa trên các tập hợp đã cho ở câu 1.
 
-3. Cho `A = {x | x là số chẵn và 1 ≤ x ≤ 10}` và `B = {x | x là số nguyên dương và x < 5}`. Xác định tập hợp `A - B`.
+3. Cho `A = {x | x là số chẵn và 1 ≤ x ≤ 10}` và `B = {x | x là số nguyên dương và x < 5}`. Tính `A x B`.
 
-4. Cho `A = {2, 4, 6, 8, 10}`. Tính tập lực lượng (cardinality) của `P(A)`, tập hợp tất cả các tập con của A.
+4. Cho `A = {2, 4, 6, 8, 10}`. Tính Power của A `P(A)`, tập hợp tất cả các tập con của A.
 
 5. Giả sử `S = {a, b, c}` và `T = {1, 2, 3, 4}`. Tính số phần tử trong `S × T`.
 
-6. Sử dụng định lý De Morgan để chứng minh rằng `(A ∪ B)' = A' ∩ B'` với `A` và `B` là hai tập hợp bất kỳ.
+6. Chứng minh rằng `(A ∪ B)' = A' ∩ B'` với `A` và `B` là hai tập hợp bất kỳ.
