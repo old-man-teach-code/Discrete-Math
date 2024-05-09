@@ -10,4 +10,12 @@
 
 5. Giả sử `S = {a, b, c}` và `T = {1, 2, 3, 4}`. Tính số phần tử trong `S × T`.
 
-6. Chứng minh rằng `(A ∪ B)' = A' ∩ B'` với `A` và `B` là hai tập hợp bất kỳ.
+6. Chứng Minh Bao Hàm
+- Cho `A = {1, 2, 3}` và `B = {1, 2, 3, 4, 5}`.
+  - Chứng minh rằng nếu `x ∈ A` thì `x ∈ B`.
+
+7. Tập Hợp Định Nghĩa Sẵn
+- Cho `N = {x | x là số nguyên dương}` và `E = {x | x là số chẵn}`.
+  - Chứng minh rằng `E ⊆ N`.
+
+8. Chứng minh rằng `(A ∪ B)' = A' ∩ B'` với `A` và `B` là hai tập hợp bất kỳ.
