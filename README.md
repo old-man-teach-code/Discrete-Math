@@ -1,4 +1,7 @@
 # Tổng hợp kiến thức về toán rời rạc (Discrete Mathematics)
+## Menu
+- [Tập hợp (Set)](#tập-hợp-set)
+
 
 ## Tập hợp (Set)
 - **Ứng dụng:** 
