@@ -85,7 +85,7 @@
 
 ### Đồ thị Venn (Venn Diagrams)
 - **Sử dụng:** Đồ thị Venn được sử dụng để biểu diễn các mối quan hệ giữa các tập hợp.
-- **Ví dụ:** Vẽ đồ thị Venn cho tập hợp các nguyên âm \(V\) trong bảng chữ cái tiếng Anh.
+- **Ví dụ:** Vẽ đồ thị Venn cho tập hợp A là tập con của tập hợp B. Cả A và B đều nằm trong Universe U (Không gian mẫu).
  
 <img src="venn.png" alt="Venn Diagram" width="50%" height="50%">
 
