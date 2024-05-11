@@ -19,11 +19,11 @@
 **Đề bài:** Tìm \( \{1, 2, 3, 4\} ∖ \{2, 3\}\).
 
 #### Bài 7: Quan Hệ Đối Xứng (Relation)
-**Đề bài:** Cho quan hệ \(R = \{(1,1), (2,2), (3,3)\}\). Chứng minh \(R\) là đối xứng.
+**Đề bài:** Cho quan hệ \(R = \{(1,1), (2,2), (3,3)\}\). Chứng minh \(R\) là đối xứng. <br>
 **Giải thích:** Một quan hệ (relation) được gọi là đối xứng nếu với mọi cặp \((a, b)\) trong quan hệ, cặp \((b, a)\) cũng nằm trong quan hệ đó.
 
 #### Bài 8: Quan Hệ Bắc Cầu
-**Đề bài:** Chứng minh quan hệ \(\{(a, b), (b, c), (a, c)\}\) là bắc cầu.
+**Đề bài:** Chứng minh quan hệ \(\{(a, b), (b, c), (a, c)\}\) là bắc cầu. <br>
 **Giải thích:** Một quan hệ được gọi là bắc cầu nếu với mọi cặp \((a, b)\) và \((b, c)\) trong quan hệ, cặp \((a, c)\) cũng nằm trong quan hệ đó.
 
 #### Bài 9: Quan Hệ Tương Đương
