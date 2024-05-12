@@ -1,9 +1,29 @@
 # Tổng Hợp Lý Thuyết Toán Rời Rạc (Phần tập hợp - Set Theory)
+
+## Mục Lục
+- [Định Nghĩa và Đặc Điểm](#định-nghĩa-và-đặc-điểm)
+  - [Tập hợp (Set)](#tập-hợp-set)
+  - [Tập hợp rỗng (Empty Set)](#tập-hợp-rỗng-empty-set)
+  - [Tập hợp con và Tập hợp con thực sự (Subset and Proper Subset)](#tập-hợp-con-và-tập-hợp-con-thực-sự-subset-and-proper-subset)
+  - [Tích Descartes (Cartesian Product)](#tích-descartes-cartesian-product)
+  - [Quan hệ (Relation)](#quan-hệ-relation)
+  - [Hợp và Giao của các tập hợp (Union and Intersection)](#hợp-và-giao-của-các-tập-hợp-union-and-intersection)
+  - [Phần bù của tập hợp (Complement of a Set)](#phần-bù-của-tập-hợp-complement-of-a-set)
+- [Tính Chất Cơ Bản](#tính-chất-cơ-bản)
+  - [Đẳng thức tập hợp (Equal Sets)](#đẳng-thức-tập-hợp-equal-sets)
+  - [Axiom of Extension (Tiên đề mở rộng)](#axiom-of-extension-tiên-đề-mở-rộng)
+  - [Đồ thị Venn (Venn Diagrams)](#đồ-thị-venn-venn-diagrams)
+- [Công Thức và Tính Chất Nâng Cao](#công-thức-và-tính-chất-nâng-cao)
+  - [Tập hợp các tập con (Power Set)](#tập-hợp-các-tập-con-power-set)
+  - [Kích thước của tập hợp (Cardinality)](#kích-thước-của-tập-hợp-cardinality)
+  - [Định lý De Morgan](#định-lý-de-morgan)
+
+
 ## Bài tập 
 - [Bài tập về tập hợp cơ bản B1](B1/README.md)
 - [Bài tập về tập hợp cơ bản bổ sung tự luyện B1-extra](B1-extra/README.md)
-## Định Nghĩa và Đặc Điểm
 
+## Định Nghĩa và Đặc Điểm
 ### Tập hợp (Set)
 - **Định nghĩa:** Một tập hợp là một bộ sưu tập không có thứ tự của các đối tượng, gọi là phần tử (elements) của tập hợp đó.
 - **Ký hiệu:** Sử dụng chữ cái in hoa để đặt tên cho tập hợp, ví dụ \(A\), \(B\), \(C\),...
