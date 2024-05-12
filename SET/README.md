@@ -1,5 +1,7 @@
 # Tổng Hợp Lý Thuyết Toán Rời Rạc (Phần tập hợp - Set Theory)
-
+## Bài tập 
+- [Bài tập về tập hợp cơ bản B1](B1/README.md)
+- [Bài tập về tập hợp cơ bản bổ sung tự luyện B1-extra](B1-extra/README.md)
 ## Định Nghĩa và Đặc Điểm
 
 ### Tập hợp (Set)
