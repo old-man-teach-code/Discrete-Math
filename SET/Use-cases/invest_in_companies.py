@@ -1,36 +1,44 @@
-# Danh sách các công ty
-companies = {
-    'company1': {'industry': 'IT', 'market_cap': 100, 'profit': 10},
-    'company2': {'industry': 'Finance', 'market_cap': 200, 'profit': 20},
-    'company3': {'industry': 'Healthcare', 'market_cap': 150, 'profit': 15},
-    'company4': {'industry': 'IT', 'market_cap': 120, 'profit': 12},
-    'company5': {'industry': 'Finance', 'market_cap': 180, 'profit': 18},
-    'company6': {'industry': 'Healthcare', 'market_cap': 130, 'profit': 13},
-    'company7': {'industry': 'IT', 'market_cap': 140, 'profit': 14},
-    'company8': {'industry': 'Finance', 'market_cap': 160, 'profit': 16},
-    'company9': {'industry': 'Healthcare', 'market_cap': 110, 'profit': 11},
-}
+
 
 # Nhà đầu tư muốn đầu tư vào các công ty IT, có vốn hóa nhỏ và lợi nhuận cao
+# Một công ty có thể thuộc nhiều nhóm tiêu chí khác nhau (vốn hóa, lợi nhuận, ngành nghề, thi trường, ...)
+
+# Danh sách toàn bộ các công ty
+companies = ['Công ty A', 'Công ty B', 'Công ty C', 'Công ty D', 'Công ty E', 'Công ty F', 'Công ty G', 'Công ty H', 'Công ty I', 'Công ty J']
+
+# Danh sách các công ty theo từng nhóm ngành nghề (1 công ty có thể thuộc nhiều nhóm ngành nghề)
 field_groups = {
-    'IT': {'company1', 'company4', 'company7'},
-    'Finance': {'company2', 'company5', 'company8'},
-    'Healthcare': {'company3', 'company6', 'company9'}
+    'IT': ['Công ty A', 'Công ty B', 'Công ty C', 'Công ty D'],
+    'Finance': ['Công ty E', 'Công ty F'],
+    'Healthcare': ['Công ty G'],
+    'Retail': ['Công ty H', 'Công ty I', 'Công ty J']
 }
 
+# Danh sách các công ty theo từng nhóm vốn hóa (1 công ty chỉ thuộc 1 nhóm vốn hóa)
 market_cap_groups = {
-    'Small': {'company1', 'company4', 'company7'},
-    'Medium': {'company3', 'company6', 'company9'},
-    'Large': {'company2', 'company5', 'company8'}
+    'Small': ['Công ty A', 'Công ty B', 'Công ty C', 'Công ty D'],
+    'Medium': ['Công ty E', 'Công ty F', 'Công ty G'],
+    'Large': ['Công ty H', 'Công ty I', 'Công ty J']
 }
 
+# Danh sách các công ty theo từng nhóm lợi nhuận (1 công ty chỉ thuộc 1 nhóm lợi nhuận)
 profit_groups = {
-    'High': {'company1', 'company4', 'company7'},
-    'Medium': {'company2', 'company5', 'company8'},
-    'Low': {'company3', 'company6', 'company9'}
+    'Low': ['Công ty B', 'Công ty C'],
+    'Medium': ['Công ty D', 'Công ty E', 'Công ty F'],
+    'High': ['Công ty A', 'Công ty G', 'Công ty H', 'Công ty I', 'Công ty J']
 }
 
-# Tìm danh sách các công ty mà nhà đầu tư có thể đầu tư
-investable_companies = set(field_groups['IT']) & set(market_cap_groups['Small']) & set(profit_groups['High'])
+# Danh sách các công ty theo từng nhóm thi trường (1 công ty có thể có nhiều nhóm thi trường)
+market_groups = {
+    'US': ['Công ty A', 'Công ty B', 'Công ty C'],
+    'EU': ['Công ty C', 'Công ty D', 'Công ty E'],
+    'Asia': ['Công ty A', 'Công ty G', 'Công ty C', 'Công ty H', 'Công ty I', 'Công ty J'],
+    'Vietnam': ['Công ty D', 'Công ty E', 'Công ty F'],
+    'Others': ['Công ty F']
+}
 
-print(f"Nhà đầu tư có thể đầu tư vào các công ty: {investable_companies}")
+
+# Tìm danh sách các công ty mà nhà đầu tư có thể đầu tư (có vốn hóa nhỏ và lợi nhuận cao, thuộc ngành IT, và có mặt ở thị trường Châu Á)
+investable_companies = list(set(market_cap_groups['Small']) & set(profit_groups['High']) & set(field_groups['IT']) & set(market_groups['Asia']))
+
+print(investable_companies)
