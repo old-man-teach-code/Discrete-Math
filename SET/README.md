@@ -21,9 +21,9 @@
   - \( \{x ∈ ℤ^+ | x > x^2\} = ∅ \) vì không có số nguyên dương nào lớn hơn bình phương của chính nó.
   - \( \{x ∈ ℝ | x^2 = -1\} = ∅ \) vì không có số thực nào có bình phương là số âm.
 
-### Tập hợp con và Tập hợp thực sự (Subset and Proper Subset)
-- **Tập hợp con (Subset):** \(A ⊆ B\) nếu mọi phần tử của \(A\) cũng là phần tử của \(B\).
-- **Tập hợp thực sự (Proper Subset):** \(A ⊂ B\) nếu \(A\) là tập hợp con của \(B\) và \(A\) không bằng \(B\).
+### Tập hợp con và Tập hợp con thực sự (Subset and Proper Subset)
+- **Tập hợp con (Subset):** \(A ⊆ B\) nếu mọi phần tử của \(A\) cũng là phần tử của \(B\) (Tập con hoặc bằng nhau).
+- **Tập hợp con thực sự (Proper Subset):** \(A ⊂ B\) nếu \(A\) là tập hợp con của \(B\) và \(A\) không bằng \(B\).
 - **Ví dụ:**
   - \(\{1, 2, 3\} ⊆ \{1, 2, 3, 4, 5\}\)
   - \(\{1, 2, 3\} ⊂ \{1, 2, 3, 4, 5\}\)
