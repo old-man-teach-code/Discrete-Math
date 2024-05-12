@@ -23,6 +23,10 @@
 - [Bài tập về tập hợp cơ bản B1](B1/README.md)
 - [Bài tập về tập hợp cơ bản bổ sung tự luyện B1-extra](B1-extra/README.md)
 
+## Use-cases
+- [Use-cases về tập hợp trong bài toán thực tế](Use-cases/README.md)
+
+
 ## Định Nghĩa và Đặc Điểm
 ### Tập hợp (Set)
 - **Định nghĩa:** Một tập hợp là một bộ sưu tập không có thứ tự của các đối tượng, gọi là phần tử (elements) của tập hợp đó.
