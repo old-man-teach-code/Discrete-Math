@@ -23,7 +23,7 @@ Cho hai tập hợp \(A = \{a, b, c\}\) và \(B = \{1, 2, 3, 4\}\). Tính kích 
 ### Bài 7: Tập Hợp Rỗng
 Cho tập hợp \(A = \{x ∈ ℤ | x^2 < 0\}\). Chứng minh rằng \(A\) là tập hợp rỗng.
 
-### Bài 8: Bảng Thành Viên
+### Bài 8: Bảng Thành Viên (Membership Table)
 Cho hai tập hợp \(A\) và \(B\) với các phần tử như sau:
   - \(A = \{1, 2, 3\}\)
   - \(B = \{2, 3, 4\}\)
@@ -36,12 +36,19 @@ Cho hai bags \(A = \{|a, b, b, c|\}\) và \(B = \{|a, a, b, d|\}\). Tính:
   - \(A - B\)
   - \(A + B\)
 
-### Bài 10: Chứng Minh Sử Dụng Bảng Thành Viên
+### Bài 10: Chứng Minh Sử Dụng Bảng Thành Viên (Membership Table)
 Cho ba tập hợp \(A\), \(B\), và \(C\) với các phần tử như sau:
   - \(A = \{1, 2\}\)
   - \(B = \{2, 3\}\)
   - \(C = \{3, 4\}\)
   Sử dụng bảng thành viên để chứng minh rằng \(A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C)\).
+  - **Ví dụ:** Bảng thành viên cho \(A\), \(B\)
+
+    |  A  |  B  | A ∪ B | A ∩ B | A - B | B - A |
+    | --- | --- | ----- | ----- | ----- | ----- |
+    |  1  |  2  |   1   |   2   |   1   |   2   |
+    |  2  |  3  |   2   |   3   |   2   |   3   |             
+
 
 ### Bài 11: Tính Chất Giao và Hợp
 Cho ba tập hợp \(A\), \(B\), và \(C\). Chứng minh rằng:
@@ -52,10 +59,10 @@ Cho hai bags \(A = \{|a, a, b, b, c|\}\) và \(B = \{|a, b, b, d, d|\}\). Tính:
   - \(A ∩ (A ∪ B)\)
   - \((A - B) ∪ (B - A)\)
 
-### Bài 13: Phép Toán Với Tập Hợp Con
+### Bài 13: Phép Toán Với Tập Hợp Con (Subsets và Proper Subsets)
 Cho tập hợp \(A = \{1, 2, 3, 4, 5\}\). Xác định số lượng các tập hợp con thực sự của \(A\).
 
-### Bài 14: Chứng Minh Quy Tắc Hấp Thụ
+### Bài 14: Chứng Minh Quy Tắc Hấp Thụ (Absorption Rule)
 Chứng minh rằng với mọi tập hợp \(A\) và \(B\):
   - \(A ∪ (A ∩ B) = A\)
   - \(A ∩ (A ∪ B) = A\)
@@ -64,7 +71,7 @@ Chứng minh rằng với mọi tập hợp \(A\) và \(B\):
 Cho ba tập hợp \(A\), \(B\), và \(C\). Sử dụng định lý De Morgan để chứng minh rằng:
   - \((A ∪ B ∪ C)^c = A^c ∩ B^c ∩ C^c\)
 
-### Bài 16: Chứng Minh Tính Chất Phân Phối
+### Bài 16: Chứng Minh Tính Chất Phân Phối (Distributive Property)
 Cho ba tập hợp \(A\), \(B\), và \(C\). Chứng minh rằng:
   - \(A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C)\)
 
@@ -78,7 +85,7 @@ Cho hai bags \(A = \{|a, a, b, c, c, d|\}\) và \(B = \{|a, b, b, d, e|\}\). Tí
 ### Bài 18: Tập Hợp Con Của Tích Descartes
 Cho hai tập hợp \(A = \{1, 2\}\) và \(B = \{a, b\}\). Liệt kê tất cả các tập hợp con của \(A × B\).
 
-### Bài 19: Chứng Minh Quy Tắc Phân Phối
+### Bài 19: Chứng Minh Quy Tắc Phân Phối (Distributive Rule)
 Chứng minh rằng với mọi tập hợp \(A\), \(B\), và \(C\):
   - \(A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C)\)
 
