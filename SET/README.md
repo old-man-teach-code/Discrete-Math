@@ -71,6 +71,7 @@
 - **Ví dụ:**
   - Nếu \(A = \{1, 2\}\) và \(B = \{a, b\}\), thì \(A × B = \{(1, a), (1, b), (2, a), (2, b)\}\).
 
+## Phép Toán trên Tập Hợp
 ### Quan hệ (Relation)
 - **Định nghĩa:** Một quan hệ từ tập hợp \(A\) đến \(B\) là một tập hợp con của tích Descartes \(A × B\).
 - **Ví dụ:** Nếu \(R\) là một quan hệ từ \(A = \{1, 2, 3\}\) đến \(B = \{a, b, c\}\), một ví dụ về quan hệ có thể là \(R = \{(1, a), (2, b), (3, c)\}\).
@@ -82,6 +83,13 @@
   - Nếu \(A = \{1, 2, 3\}\) và \(B = \{3, 4, 5\}\), thì:
     - \(A ∪ B = \{1, 2, 3, 4, 5\}\).
     - \(A ∩ B = \{3\}\).
+- **Chú ý**:
+  - **Disjoint Sets** (Tập hợp không giao nhau): Hai tập hợp \(A\) và \(B\) được gọi là không giao nhau nếu \(A ∩ B = ∅\).
+  - Phần tử 
+
+### Difference of Sets
+- **Định nghĩa:** Phép trừ giữa hai tập hợp \(A\) và \(B\) là tập hợp chứa tất cả các phần tử của \(A\) mà không thuộc \(B\).
+- **Ký hiệu:** \(A - B\)
 
 ### Phần bù của tập hợp (Complement of a Set)
 - **Định nghĩa:** Phần bù của tập hợp \(A\) trong tập hợp \(U\) là tập hợp chứa tất cả các phần tử của \(U\) mà không thuộc \(A\).
@@ -94,6 +102,20 @@
   - \((A ∪ B)' = A' ∩ B'\).
   - \((A ∩ B)' = A' ∪ B'\).
 - **Chú ý:** Phần bù của phần bù của một tập hợp bằng chính tập hợp đó, tức là \((A^c)^c = A\).
+
+### Generalized Unions and Intersections (Hợp và Giao tổng quát)
+- **Định nghĩa:** Hợp của một tập hợp các tập hợp là tập hợp chứa tất cả các phần tử của các tập hợp con.
+- **Tính chất**:
+  - Intersection of 3 sets (Giao của 3 tập hợp): \(A ∩ B ∩ C\) là tập hợp chứa tất cả các phần tử mà \(A\), \(B\), và \(C\) đều chứa.
+    - A ∩ (B ∩ C) = (A ∩ B) ∩ C
+  - Union of 3 sets (Hợp của 3 tập hợp): \(A ∪ B ∪ C\) là tập hợp chứa tất cả các phần tử của \(A\), \(B\), hoặc \(C\).
+    - A ∪ (B ∪ C) = (A ∪ B) ∪ C
+  - Cardinality of Union of 3 sets (Kích thước của hợp của 3 tập hợp):
+    - |A ∪ B ∪ C| = |A| + |B| + |C| - |A ∩ B| - |A ∩ C| - |B ∩ C| + |A ∩ B ∩ C|
+  - Generalized Union (Hợp tổng quát): 
+  <img src="./generalized_union.png" alt="Generalized Union" width="100%" height="100%">
+  - Generalized Intersection (Giao tổng quát):
+  <img src="./generalized_intersection.png" alt="Generalized Intersection" width="100%" height="100%">
 
 
 ## Tính Chất Cơ Bản
@@ -135,5 +157,6 @@
 - **Định lý:** Cho hai tập hợp \(A\) và \(B\), thì:
   - \((A ∪ B)^c = A^c ∩ B^c\)
   - \((A ∩ B)^c = A^c ∪ B^c\)
+
 
   
