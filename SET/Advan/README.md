@@ -41,6 +41,22 @@
 | 0 | 1 |   1   |   0   |   0   |
 | 0 | 0 |   0   |   0   |   0   |
 
+- **Ví dụ 2**: Bảng thành viên cho \(A\) và \(B\) với \(A = \{1, 2\}\) và \(B = \{2, 3\}\).
+
+|  A  |  B  | A ∪ B | A ∩ B | A - B |
+| --- | --- | ----- | ----- | ----- |
+|  1  |  2  |   1   |   2   |   1   |
+|  2  |  3  |   2   |   2   |   0   |
+
+- **Ví dụ 3**: Bảng thành viên cho \(A\) và \(B\) với \(A = \{a, b, c\}\) và \(B = \{b, c, d\}\).
+
+|  A  |  B  | A ∪ B | A ∩ B | A - B |
+| --- | --- | ----- | ----- | ----- |
+|  a  |  b  |   a   |   b   |   a   |
+|  b  |  c  |   b   |   c   |   ∅   |
+|  c  |  d  |   c   |   c   |   ∅   |
+
+
 ## Sử Dụng Bảng Thành Viên Để Chứng Minh Các Tính Chất
 - **Ví dụ**: Chứng minh \(A ∩ B = B − (B − A)\) bằng bảng thành viên.
 
@@ -50,6 +66,7 @@
 | 1 | 0 |   0   |   0   |      0      |
 | 0 | 1 |   0   |   1   |      0      |
 | 0 | 0 |   0   |   0   |      0      |
+
 
 ## Định Nghĩa và Phép Toán Trên "Bags" (Multisets)
 ### Định Nghĩa
