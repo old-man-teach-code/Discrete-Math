@@ -17,7 +17,7 @@
 ## Bài tập trung bình
 
 4. **Phép bù:**
-   - Cho \( U = \{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\} \) và \( A = \{1, 3, 5, 7, 9\} \). Tìm \( \overline{A} \).
+   - Cho \( U = \{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\} \) và \( A = \{1, 3, 5, 7, 9\} \). Tìm \( A' \).
    - _Gợi ý: Phép bù của tập hợp \( A \) là tập hợp chứa tất cả các phần tử không có trong \( A \) nhưng có trong tập hợp vũ trụ \( U \)._
 
 5. **Phép hợp và giao của ba tập hợp:**
@@ -31,16 +31,17 @@
 ## Bài tập khó
 
 7. **Phép hợp tổng quát:**
-   - Cho \( A_i = \{i, i + 1, i + 2, \ldots\} \) với \( i = 1, 2, \ldots, n \). Tìm \( ⋃_{i=1}^{n} A_i \).
+   - Cho \( A_i = \{i, i + 1, i + 2, …\} \) với \( i = 1, 2, …, n \). Tìm \( ⋃_{i=1}^{n} A_i \).
    - _Gợi ý: Phép hợp tổng quát của tập hợp là tập hợp chứa các phần tử có trong ít nhất một trong các tập con._
 
 8. **Phép giao tổng quát:**
-   - Cho \( A_i = \{i, i + 1, i + 2, \ldots\} \) với \( i = 1, 2, \ldots, n \). Tìm \( ⋂_{i=1}^{n} A_i \).
+   - Cho \( A_i = \{i, i + 1, i + 2, …\} \) với \( i = 1, 2, …, n \). Tìm \( ⋂_{i=1}^{n} A_i \).
    - _Gợi ý: Phép giao tổng quát của tập hợp là tập hợp chứa các phần tử có trong tất cả các tập con._
 
-9. **Lực lượng của hợp ba tập hợp:**
+9. **Độ dài của hợp ba tập hợp:**
    - Cho \( A = \{1, 2, 3\} \), \( B = \{3, 4, 5\} \), và \( C = \{5, 6, 7\} \). Tìm \( |A ∪ B ∪ C| \).
    - _Gợi ý: Sử dụng công thức \( |A ∪ B ∪ C| = |A| + |B| + |C| - |A ∩ B| - |A ∩ C| - |B ∩ C| + |A ∩ B ∩ C| \)._
 
 10. **Sử dụng chuỗi bit để tìm phép hợp và giao:**
-    - Cho các chuỗi bit của các tập hợp \( A \
+    - Cho các chuỗi bit của các tập hợp \( A \) và \( B \) là 1111100000 và 1010101010 tương ứng. Tìm chuỗi bit của \( A ∪ B \) và \( A ∩ B \).
+    - _Gợi ý: Sử dụng toán tử OR để tìm hợp và toán tử AND để tì
