@@ -42,13 +42,6 @@ Cho ba tập hợp \(A\), \(B\), và \(C\) với các phần tử như sau:
   - \(B = \{2, 3\}\)
   - \(C = \{3, 4\}\)
   Sử dụng bảng thành viên để chứng minh rằng \(A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C)\).
-  - **Ví dụ:** Bảng thành viên cho \(A\), \(B\)
-
-    |  A  |  B  | A ∪ B | A ∩ B | A - B | B - A |
-    | --- | --- | ----- | ----- | ----- | ----- |
-    |  1  |  2  |   1   |   2   |   1   |   2   |
-    |  2  |  3  |   2   |   3   |   2   |   3   |             
-
 
 ### Bài 11: Tính Chất Giao và Hợp
 Cho ba tập hợp \(A\), \(B\), và \(C\). Chứng minh rằng:
