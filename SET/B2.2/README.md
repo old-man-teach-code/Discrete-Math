@@ -2,53 +2,91 @@
 
 ## Bài Tập
 
-### Bài 1: Quy Tắc Đồng Nhất (Identity Laws)
-Cho tập hợp \(A\), \(U\) là tập hợp toàn thể và \(∅\) là tập hợp rỗng. Chứng minh rằng:
-1. \(A ∩ U = A\)
-2. \(A ∪ ∅ = A\)
+### Bài 1: Xác Định Phần Tử
+Cho tập hợp \(A = \{1, 3, 5, 7\}\) và \(B = \{2, 4, 6, 8\}\). Xác định \(A ∪ B\) và \(A ∩ B\).
 
-### Bài 2: Quy Tắc Chi Phối (Domination Laws)
-Cho tập hợp \(A\), \(U\) là tập hợp toàn thể và \(∅\) là tập hợp rỗng. Chứng minh rằng:
-1. \(A ∪ U = U\)
-2. \(A ∩ ∅ = ∅\)
+### Bài 2: Tập Hợp Con
+Cho tập hợp \(A = \{1, 2, 3\}\). Liệt kê tất cả các tập hợp con của \(A\).
 
-### Bài 3: Quy Tắc Đa Nhiệm (Idempotent Laws)
-Cho tập hợp \(A\). Chứng minh rằng:
-1. \(A ∪ A = A\)
-2. \(A ∩ A = A\)
+### Bài 3: Tích Descartes
+Cho hai tập hợp \(A = \{x, y\}\) và \(B = \{1, 2, 3\}\). Tính \(A × B\).
 
-### Bài 4: Quy Tắc Bổ Sung (Complement Laws)
-Cho tập hợp \(A\) và \(U\) là tập hợp toàn thể. Chứng minh rằng:
-1. \(A ∪ A^c = U\)
-2. \(A ∩ A^c = ∅\)
+### Bài 4: Tập Hợp Con và Con Thực Sự
+Cho hai tập hợp \(A = \{1, 2, 3\}\) và \(B = \{1, 2, 3, 4, 5\}\). Chứng minh rằng \(A\) là tập hợp con thực sự của \(B\).
 
-### Bài 5: Chứng Minh Tập Hợp Bằng Nhau
-Cho hai tập hợp \(A\) và \(B\). Chứng minh rằng \(A = B\) nếu và chỉ nếu:
-1. \(A ⊆ B\)
-2. \(B ⊆ A\)
+### Bài 5: Kiểm Tra Phần Tử
+Cho tập hợp \(A = \{2, 4, 6, 8, 10\}\). Kiểm tra xem \(5\) có phải là phần tử của tập hợp \(A\) hay không.
 
-### Bài 6: Định Lý De Morgan (De Morgan's Laws)
-Sử dụng định lý De Morgan để chứng minh rằng:
-1. \((A ∩ B)^c = A^c ∪ B^c\)
-2. \((A ∪ B)^c = A^c ∩ B^c\)
+### Bài 6: Tính Kích Thước
+Cho hai tập hợp \(A = \{a, b, c\}\) và \(B = \{1, 2, 3, 4\}\). Tính kích thước của tích Descartes \(A × B\).
 
-### Bài 7: Bảng Thành Viên (Membership Table)
-Cho hai tập hợp \(A\) và \(B\). Sử dụng bảng thành viên để chứng minh rằng:
-1. \(A ∩ B = B − (B − A)\)
-2. \((A − B) ∪ (B − A) = (A ∪ B) − (A ∩ B)\)
+### Bài 7: Tập Hợp Rỗng
+Cho tập hợp \(A = \{x ∈ ℤ | x^2 < 0\}\). Chứng minh rằng \(A\) là tập hợp rỗng.
 
-### Bài 8: Phép Toán Trên Bags
-Cho hai bags \(A = \{|a, m, m, m, n|\}\) và \(B = \{|a, a, m, m, n, n, n, n, r|\}\). Tính:
-1. \(A ∪ B\)
-2. \(A ∩ B\)
-3. \(A - B\)
-4. \(B - A\)
-5. \(A + B\)
+### Bài 8: Bảng Thành Viên
+Cho hai tập hợp \(A\) và \(B\) với các phần tử như sau:
+  - \(A = \{1, 2, 3\}\)
+  - \(B = \{2, 3, 4\}\)
+  Lập bảng thành viên cho các tập hợp: \(A ∪ B\), \(A ∩ B\), \(A - B\), \(B - A\).
 
-### Bài 9: Định Nghĩa "Bag" (Bag Definition)
-Cho bag \(A = \{|a, a, a, a, a, b, b, b, c, c, d|\}\). Biểu diễn bag này bằng các cặp phần tử và độ nhiều (multiplicity).
+### Bài 9: Phép Toán Trên Bags
+Cho hai bags \(A = \{|a, b, b, c|\}\) và \(B = \{|a, a, b, d|\}\). Tính:
+  - \(A ∪ B\)
+  - \(A ∩ B\)
+  - \(A - B\)
+  - \(A + B\)
 
-### Bài 10: Ứng Dụng của "Bags"
-Sử dụng bag để biểu diễn các phân tích nguyên tố của các số sau:
-1. 735
-2. 1024
+### Bài 10: Chứng Minh Sử Dụng Bảng Thành Viên
+Cho ba tập hợp \(A\), \(B\), và \(C\) với các phần tử như sau:
+  - \(A = \{1, 2\}\)
+  - \(B = \{2, 3\}\)
+  - \(C = \{3, 4\}\)
+  Sử dụng bảng thành viên để chứng minh rằng \(A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C)\).
+
+### Bài 11: Tính Chất Giao và Hợp
+Cho ba tập hợp \(A\), \(B\), và \(C\). Chứng minh rằng:
+  - \(A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C)\)
+
+### Bài 12: Phép Toán Trên Bags Nâng Cao
+Cho hai bags \(A = \{|a, a, b, b, c|\}\) và \(B = \{|a, b, b, d, d|\}\). Tính:
+  - \(A ∩ (A ∪ B)\)
+  - \((A - B) ∪ (B - A)\)
+
+### Bài 13: Phép Toán Với Tập Hợp Con
+Cho tập hợp \(A = \{1, 2, 3, 4, 5\}\). Xác định số lượng các tập hợp con thực sự của \(A\).
+
+### Bài 14: Chứng Minh Quy Tắc Hấp Thụ
+Chứng minh rằng với mọi tập hợp \(A\) và \(B\):
+  - \(A ∪ (A ∩ B) = A\)
+  - \(A ∩ (A ∪ B) = A\)
+
+### Bài 15: Sử Dụng Định Lý De Morgan
+Cho ba tập hợp \(A\), \(B\), và \(C\). Sử dụng định lý De Morgan để chứng minh rằng:
+  - \((A ∪ B ∪ C)^c = A^c ∩ B^c ∩ C^c\)
+
+### Bài 16: Chứng Minh Tính Chất Phân Phối
+Cho ba tập hợp \(A\), \(B\), và \(C\). Chứng minh rằng:
+  - \(A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C)\)
+
+### Bài 17: Phép Toán Nâng Cao Trên Bags
+Cho hai bags \(A = \{|a, a, b, c, c, d|\}\) và \(B = \{|a, b, b, d, e|\}\). Tính:
+  - \(|A ∪ B|\)
+  - \(|A ∩ B|\)
+  - \(|A - B|\)
+  - \(|A + B|\)
+
+### Bài 18: Tập Hợp Con Của Tích Descartes
+Cho hai tập hợp \(A = \{1, 2\}\) và \(B = \{a, b\}\). Liệt kê tất cả các tập hợp con của \(A × B\).
+
+### Bài 19: Chứng Minh Quy Tắc Phân Phối
+Chứng minh rằng với mọi tập hợp \(A\), \(B\), và \(C\):
+  - \(A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C)\)
+
+### Bài 20: Bảng Thành Viên Nâng Cao
+Cho ba tập hợp \(A\), \(B\), và \(C\) với các phần tử như sau:
+  - \(A = \{1, 2\}\)
+  - \(B = \{2, 3\}\)
+  - \(C = \{3, 4\}\)
+  Sử dụng bảng thành viên để chứng minh rằng:
+  - \((A ∪ B) ∩ (B ∪ C) = B ∪ (A ∩ C)\)
+
