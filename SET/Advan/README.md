@@ -46,12 +46,14 @@
   - \(B = \{2, 3\}\)
   - \(C = \{3, 4\}\)
 
-  Bước 1: Lập tập hợp U = {1, 2, 3, 4}.
-  Bước 2: Xác định các phần tử của A, B, và C trong U (Bit)
-  A = {1, 2} = 1100
-  B = {2, 3} = 0110
-  C = {3, 4} = 0001
-Vậy ta có bảng thành viên như sau:
+  - Bước 1: Lập tập hợp U = {1, 2, 3, 4}.
+  - Bước 2: Xác định các phần tử của A, B, và C trong U (Bit)
+    ```
+    A = {1, 2} = 1100
+    B = {2, 3} = 0110
+    C = {3, 4} = 0001
+    ```
+  - Vậy ta có bảng thành viên như sau:
 
     | Phần Tử | \(A\) | \(B\) | \(C\) | \(B ∩ C\) | 
     |---------|-------|-------|-------|-----------|
