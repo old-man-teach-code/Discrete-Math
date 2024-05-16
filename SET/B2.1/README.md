@@ -40,7 +40,7 @@
 
 9. **Độ dài của hợp ba tập hợp:**
    - Cho \( A = \{1, 2, 3\} \), \( B = \{3, 4, 5\} \), và \( C = \{5, 6, 7\} \). Tìm \( |A ∪ B ∪ C| \).
-   - _Gợi ý: Sử dụng công thức \( |A ∪ B ∪ C| = |A| + |B| + |C| - |A ∩ B| - |A ∩ C| - |B ∩ C| + |A ∩ B ∩ C| \)._
+   - _Gợi ý: Sử dụng công thức \( |A ∪ B ∪ C| = |A| + |B| + |C| - |A ∩ B| - |A ∩ C| - |B ∩ C| + |A ∩ B ∩ C| \).
 
 10. **Sử dụng chuỗi bit để tìm phép hợp và giao:**
     - Cho các chuỗi bit của các tập hợp \( A \) và \( B \) là 1111100000 và 1010101010 tương ứng. Tìm chuỗi bit của \( A ∪ B \) và \( A ∩ B \).
