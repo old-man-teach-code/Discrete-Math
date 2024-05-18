@@ -114,13 +114,13 @@
     - |A ∪ B ∪ C| = |A| + |B| + |C| - |A ∩ B| - |A ∩ C| - |B ∩ C| + |A ∩ B ∩ C|
   - Cardinality of Intersection of 3 sets (Kích thước của giao của 3 tập hợp):
     - |A ∩ B ∩ C| = kích thước của tập hợp chứa tất cả các phần tử mà \(A\), \(B\), và \(C\) đều chứa.
-  - Tổng quát
-  
+  - Tổng quát:
+
     - Generalized Union (Hợp tổng quát): 
-  <img src="./generalized_union.png" alt="Generalized Union" width="100%" height="100%">
+    - <img src="./generalized_union.png" alt="Generalized Union" width="100%" height="100%">
 
     - Generalized Intersection (Giao tổng quát):
-  <img src="./generalized_intersection.png" alt="Generalized Intersection" width="100%" height="100%">
+    - <img src="./generalized_intersection.png" alt="Generalized Intersection" width="100%" height="100%">
 
 
 ## Tính Chất Cơ Bản
